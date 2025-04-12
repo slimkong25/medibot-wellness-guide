@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Send } from "lucide-react";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "sonner";
 import ChatMessage from './ChatMessage';
 import { ChatMessage as MessageType, processUserInput, generateId, isValidInput } from '../utils/chatUtils';
 
